@@ -6,8 +6,13 @@ image_differ.py is a Python script that takes two images and compare the delta p
 
 Running this script is quite simple.  You can run the script using the following steps:
 
-1. Install Python 3.8.x
+1. Install Python 3.8.x and Git if not already installed.
 2. Create virtual environment (optional but highly recomended)
+  - git clone https@github.com:kenchu2000/image_differ.git
+  - cd image_differ
+  - pip3 install virtualenv
+  - virtualenv -p python3 venv
+  - source ./venv/bin/activate
 3. pip3 install -r requirements.txt
 4. Run python3 --input_image1_file <image_file> --input_image2_file <image_file> --output_image_file <image_file>
 
