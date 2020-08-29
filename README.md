@@ -2,6 +2,10 @@
 
 image_differ.py is a Python script that takes two images and compare the delta percentage difference and also return the output of the delta image.  One good use case is to compare the image generation functions ensure thier consistency.
 
+# Assumptions
+
+The two images to be compared must have the same image resolution.
+
 # Instructions
 
 Running this script is quite simple.  You can run the script using the following steps:
