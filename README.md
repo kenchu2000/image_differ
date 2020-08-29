@@ -14,3 +14,5 @@ Running this script is quite simple.  You can run the script using the following
 **Example:** *python3 --input_image1_file ./image1.png --input_image2_file ./image2.png --output_image_file ./delta_output.png*
 
 Below is the sample detla_output.png:
+
+![delta_output.png](/docs/images/delta_output.png)
