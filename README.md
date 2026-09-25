@@ -25,3 +25,13 @@ Running this script is quite simple.  You can run the script using the following
 Below is the sample detla_output.png:
 
 ![delta_output.png](/docs/images/delta_output.png)
+
+# Running the tests
+
+```
+pytest                                                 # run the full suite
+pytest --cov=image_differ --cov-report=term-missing    # with coverage
+pytest --cov=image_differ --cov-report=html            # HTML coverage report in htmlcov/
+```
+
+Tests marked `xfail` document known issues in `image_differ.py`; they are strict, so they will start failing (as a reminder to remove the marker) once the underlying issue is fixed.
